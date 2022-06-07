@@ -1,0 +1,32 @@
+body {
+    color: $primary-text-color;
+    background-color: $primary-bg-color;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.header {
+    border-bottom: 1px solid #ececec;
+
+    // .header__container
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .header__logo
+
+    &__logo {
+        margin-right: 93px;
+    }
+
+    // .header__site-nav
+
+    &__site-nav {
+        display: flex;
+        align-items: center;
+    }
+}
