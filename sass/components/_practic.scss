@@ -1,0 +1,15 @@
+.practic__section {
+    @include paddingSection();
+}
+
+.practic__title {
+    @extend %_title;
+}
+
+.practic__list {
+    @include marginColumn();
+}
+
+.practic__item {
+    @include contentColumn($column: 3);
+}
