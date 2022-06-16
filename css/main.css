@@ -234,7 +234,7 @@ img {
   fill: currentColor;
 }
 
-.hero__section {
+.hero {
   padding-top: 94px;
   padding-bottom: 94px;
   display: -webkit-box;
@@ -275,7 +275,7 @@ img {
   margin: 0 auto;
 }
 
-.advantages__section {
+.advantages {
   padding-top: 94px;
   padding-bottom: 0;
 }
@@ -330,7 +330,7 @@ img {
   border-radius: 4px;
 }
 
-.practic__section {
+.practic {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -352,7 +352,7 @@ img {
   margin-left: 30px;
 }
 
-.team__section {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
@@ -442,7 +442,7 @@ img {
   fill: currentColor;
 }
 
-.client__section {
+.client {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -824,7 +824,7 @@ img {
   margin: 0 auto;
 }
 
-.work__section {
+.work {
   padding-top: 94px;
   padding-bottom: 94px;
 }

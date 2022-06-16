@@ -1,8 +1,7 @@
-.work__section {
+.work {
     @include paddingSection();
 }
 
-// .work__container {}
 
 .work__title {
     @extend %visually-hidden;
@@ -11,11 +10,6 @@
 .work__filter-list {
     @include centeredFlex();
     margin-bottom: 50px;
-    // display: flex;
-    // justify-content: center;
-
-    // margin-left: auto;
-    // margin-right: auto;
 }
 
 .work__filter-item {
