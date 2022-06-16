@@ -32,7 +32,7 @@
   border-bottom-right-radius: 4px;
 }
 
-.footer__social-title, .footer__subscription-title {
+.practic__img-title, .footer__social-title, .footer__subscription-title {
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: 700;
@@ -346,10 +346,28 @@ img {
 }
 
 .practic__item {
+  position: relative;
   -ms-flex-preferred-size: calc((100% / 3) - 30px);
       flex-basis: calc((100% / 3) - 30px);
   margin-top: 30px;
   margin-left: 30px;
+}
+
+.practic__thumb {
+  position: relative;
+}
+
+.practic__img-title {
+  display: block;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
 }
 
 .team {
